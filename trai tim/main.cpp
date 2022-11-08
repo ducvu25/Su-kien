@@ -138,8 +138,9 @@ void heart(int x, int y, vector<string> s0, vector<string> s1, vector<string> s2
 	}
 }
 int main(){
-	system("cls");
+	cout << "Bam phim bat ki!";
 	getch(); 
+	system("cls");
 	int x = 20, y = 2;
 	char may_tinh_input[] = "./may tinh.txt";
 	char heart_0[] = "./heart0.txt";
