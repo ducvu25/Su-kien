@@ -20,6 +20,10 @@ void gotoXY(int x, int y) { // x la ngang, y la doc
 vector <string> input(char *s){
 	ifstream cin(s);
 	vector <string> kq;
+	if(!cin){
+		cout << "Loi duong dan: " << s ;
+		return kq;
+	}
 	string x;
 	while(1){
 		if(!getline(cin, x))
